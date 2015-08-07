@@ -46,6 +46,9 @@ function! s:GameOpen()
   enew
   set nonumber
   set lazyredraw
+  setlocal nonumber
+  setlocal lazyredraw
+  setlocal filetype=nyancat
   setlocal nofoldenable
   setlocal buftype=nofile noswapfile
   if g:nyancat_display_statusline == 0
