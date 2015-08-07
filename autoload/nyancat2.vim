@@ -305,7 +305,8 @@ endfunction
 
 function! s:GDocUpdate(doc, ev)
   " Check termination.
-  if a:ev == 27
+  if a:ev
+    normal! ggdG
     return 0
   endif
 

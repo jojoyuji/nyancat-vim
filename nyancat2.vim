@@ -4,7 +4,6 @@
 " Author: MURAOKA Taro <koron.kaoriya@gmail.com>
 
 source ./autoload/nyancat2.vim
-set filetype=nyancat
 call nyancat2#start()
 
 " vim:set ts=8 sts=2 sw=2 tw=0 et:
