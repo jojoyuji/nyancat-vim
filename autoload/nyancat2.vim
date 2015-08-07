@@ -330,4 +330,9 @@ function! nyancat2#start()
   call s:Game()
 endfunction
 
+function! nyancat2#stop()
+  let doc = s:GameOpen()
+  call s:GameClose(doc)
+endfunction
+
 " vim:set ts=8 sts=2 sw=2 tw=0 et:
